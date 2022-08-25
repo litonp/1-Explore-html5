@@ -1,0 +1,35 @@
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li:hover {
+    background-color: lightseagreen;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+.link {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    padding: 0;
+}
+
+.link {
+    margin: 0;
+}
